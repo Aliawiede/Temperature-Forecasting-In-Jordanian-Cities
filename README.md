@@ -1,28 +1,27 @@
 # Temperature-Forecasting-In-Jordanian-Cities
-# 🌡️ Temperature Forecasting in Jordanian Cities
 
-## 🧠 Project Title  
+##  Project Title  
 Temperature Forecasting in Jordanian Cities using Machine Learning and Deep Learning
 
-## 👤 Author  
+##  Author  
 Ali AlAwiede
 
-## 🧭 Supervised by  
+##  Supervised by  
 Eng. Maysa Khalil
 
-## 🏢 Conducted at  
+##  Conducted at  
 Ideal Innovation House
 
 ---
 
-## 📌 Overview  
+##  Overview  
 This project focuses on predicting **daily temperature** in three major cities in Jordan:  
 **Amman**, **Irbid**, and **Aqaba** using machine learning and deep learning techniques.  
 By analyzing historical weather data, the model can provide accurate forecasts that support sectors such as **agriculture**, **energy**, and **tourism**.
 
 ---
 
-## 📂 Dataset Details  
+##  Dataset Details  
 - **Source:** Kaggle  
 - **Time Range:** 2008 – 2021  
 - **Total Records:** ~14,000 daily entries  
@@ -32,7 +31,7 @@ By analyzing historical weather data, the model can provide accurate forecasts t
 
 ---
 
-## ✅ Selected Features  
+##  Selected Features  
 - Pressure  
 - Wind Speed  
 - Wind Direction  
@@ -49,7 +48,7 @@ By analyzing historical weather data, the model can provide accurate forecasts t
 
 ---
 
-## 🧹 Data Preprocessing  
+##  Data Preprocessing  
 - Dropped irrelevant features (Fahrenheit, miles)  
 - Handled missing values  
 - Normalized features and target  
@@ -58,31 +57,28 @@ By analyzing historical weather data, the model can provide accurate forecasts t
 
 ---
 
-## 🤖 Models Used  
+##  Models Used  
 
-### Machine Learning
 - Linear Regression  
 - Decision Tree  
 - Random Forest  
 - K-Nearest Neighbors  
 - XGBoost  
 - LightGBM  
-- SVR (Support Vector Regression)
-
-### Deep Learning
+- SVR (Support Vector Regression
 - Multi-Layer Perceptron (MLP)  
-- LSTM (Long Short-Term Memory) – Best Results
+- LSTM (Long Short-Term Memory) 
 
 ---
 
-## 📊 Evaluation Metric  
+##  Evaluation Metric  
 - **R² Score** (Coefficient of Determination)
 
 LSTM achieved the highest performance, especially in modeling time dependencies in temperature data.
 
 ---
 
-## 🚀 Future Work  
+##  Future Work  
 - Predict more variables (e.g., humidity, wind, etc.)  
 - Build a web-based forecasting dashboard  
 - Integrate real-time weather API  
@@ -91,7 +87,7 @@ LSTM achieved the highest performance, especially in modeling time dependencies 
 
 ---
 
-## 🧰 Environment & Requirements  
+##  Environment & Requirements  
 
 ```bash
 Python >= 3.8
